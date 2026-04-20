@@ -41,7 +41,8 @@ On the second virtual machine, the Wazuh agent was installed and configured to c
 Successful communication between the agent and server was verified through the Wazuh dashboard, where the agent appeared as active and began forwarding system logs for analysis.
 
 This setup established a functional SIEM environment capable of collecting and monitoring endpoint activity across multiple systems.
- 
+
+ ![SIEM Dashboard](https://github.com/BY8-Dump/SIEM-Project/blob/main/Images_Git/Images1.png)
 <br>
 
 **Step 2 – Data Sources:**
@@ -55,8 +56,10 @@ The Wazuh agent was configured to monitor these logs and forward them to the Waz
 To generate relevant security events, authentication failures and privilege escalation attempts were simulated using system commands.
 
 These activities produced log entries which were successfully ingested, processed, and analysed by the SIEM.
-  
 
+![SIEM EVENT](https://github.com/BY8-Dump/SIEM-Project/blob/main/Images_Git/Images2.png)
+  
+![SIEM EVENT](https://github.com/BY8-Dump/SIEM-Project/blob/main/Images_Git/Images3.png)
 <br>
 
 **Step 3: Analysis of Findings**
